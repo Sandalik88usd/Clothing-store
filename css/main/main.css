@@ -1,0 +1,213 @@
+.mainBlock{
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.mainBlock .menu {
+    width: 148px;
+}
+
+.mainBlock .menu a {
+    display: block;
+    color: #444444;
+    text-decoration: none;
+    font-size: 1.125em;
+    margin-bottom: 8px;
+    padding: 12px 25px;
+}
+
+.mainBlock .menu a:hover, .mainBlock .menu a.active{
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #ebb217;
+    padding: 12px 25px;
+} 
+.mainBlock .items{
+    padding: 25px;
+}
+
+.mainBlock .boxes{
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+    width: 1090px;
+}
+
+
+.mainBlock .items .sort{
+    margin-bottom: 25px;
+}
+
+.mainBlock .items .sort p {
+    color: #7b7b7d;
+    font-size: 1em;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.mainBlock .items .sort p a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    width: 65px;
+    background: url("../../img/main/upload_small.png") no-repeat;
+    background-position: 100% 50%;
+}
+
+.mainBlock .items .sort p a:hover,
+.mainBlock .items .sort p a.active{
+    background: url("../../img/main/download_small.png") no-repeat;
+    color: #ebb217;
+    font-weight: 600;
+    background-position: 100% 50%;
+}
+
+.box figure img{
+    width: 300px;
+    height: 300px;
+}
+
+.box figure figcaption{
+    padding-left: 23px;
+    color: #4b4b4e;
+
+
+}
+
+.box figure figcaption p{
+    font-size: 0.938em;
+}
+
+.box figure figcaption p span{
+    font-size: 1.250em;
+    font-weight: 600;
+}
+
+.box .title{
+    color: #4b4b4e;
+    font-size: 1em;
+    padding-left: 23px;
+    margin-top: 10px;
+}
+
+.box figure button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ebb217;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 0.875em;
+}
+
+.box figure button:hover{
+    cursor: pointer;
+}
+
+.mainBlock .items .pagination{
+    text-align: center;
+}
+
+.mainBlock .items .pagination a{
+    margin: 0 5px;
+    color: #686868;
+    border: none;
+    text-decoration: none;
+
+}
+
+.mainBlock .items .pagination a:hover,
+.mainBlock .items .pagination a.active{
+    color: #ebb217;
+    font-weight: bold;
+}
+
+.news, .advantages{
+    width: 1278px;
+}
+
+.news h2, .advantages h2, .subscribe h2{
+    text-align: center;
+    margin: 70px 0 70px;
+    color: #4b4b4e;
+    font-size: 1.875em;
+    display: block;
+}
+
+.advantages div p {
+    color: #838388;
+    font-size: 1.125em;
+    font-weight: 300;
+    max-width: 345px;
+}
+
+.advantages div p span{
+    font-weight: bold;
+}
+
+.advantages div figure{
+    margin: 0 50px;
+    text-align: center;
+}
+
+.advantages figure img{
+    width: 100x;
+    height: 100px;
+}
+
+.advantages figure figcaption{
+    color: #a9a9ad;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.subscribe{
+    text-align: center;
+}
+
+.subscribe h2{
+    margin-bottom: 10px;
+}
+
+.subscribe .title{
+    font-size: 1em;
+    color: #4b4b4e;
+    font-weight: 600;
+}
+
+.subscribe div input{
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 0.938em;
+    width: 260px;
+    margin-top: 45px;
+}
+
+
+.subscribe div input[type="email"]{
+    border: 1px solid #444444;
+}
+
+.subscribe div input[type="submit"]{
+    border: none;
+    background-color: #444444;
+    color: white;
+}
+
+.subscribe div input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+.subscribe p:not(.title){
+    font-size: 0.813em;
+    color: #686868;
+    margin: 15px 0 60px;
+
+}
+
+.subscribe p:not(.title) a{
+    color: #9393f1;
+}

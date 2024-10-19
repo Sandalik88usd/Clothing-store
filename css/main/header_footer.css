@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Octosquares;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../../fonts/TTOctosquaresRegular.ttf");
+}
+
+@font-face {
+    font-family: Octosquares;
+    font-weight: 600;
+    src: url("../../fonts/TTOctosquaresXBold.ttf");
+}
+
+@font-face {
+    font-family: Octosquares;
+    font-weight: 300;
+    src: url("../../fonts/TTOctosquaresXLight.ttf");
+}
+
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header .logo{
+    height: 60px;
+    width: 80px;
+}
+
+header .burgerIcon{
+    width: 50px;
+    height: 47px;
+    display: none;
+    margin: 0;
+}
+
+body{
+    font-family: "Octosquares", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header > .container{
+    padding: 40px 20px;
+    margin-right: revert;
+}
+
+header  .container  .menu a{
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #4b4b4e;
+    margin: 0 20px;
+}
+
+header  .container  .menu a:hover,
+header  .container  .menu a.active
+{
+    color: #dfa52b;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #dfa52b;
+}
+
+header form div {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #dfa52b;
+    border-radius: 50px;
+    width: 320px;
+}
+
+header form div input[type = "text"]{
+    border: none;
+    margin-right: 10px;
+}
+
+header form div input[type = "submit"]
+{
+    background: url("../../img/main/search.png");
+    background-size:cover ;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+header form div input[type = "submit"]:hover{
+    cursor: pointer;
+}
+
+header .cart img{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+header .cart{
+    align-items: flex-start;
+}
+
+header .cart div p {
+    font-size: 0.938em;
+    color: #838388;
+}
+
+header .cart div a {
+    font-size: 0.750em;
+    color: #dfa52b;;
+}
+
+footer{
+    background-color: #4b4b4e;
+    padding: 50px 0 20px;
+}
+
+footer .container{
+    align-items: flex-start;
+}
+
+footer .logo{
+    height: 60px;
+    width: 80px;
+    filter: brightness(0) invert(1);
+    margin: auto;
+    display: flex;
+}
+
+footer .left{
+    align-items: flex-start;
+    margin-left: -10px;
+}
+
+footer .left figure figcaption{
+    color: #f3f3f3;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 140px;
+    text-align: center;
+}
+
+footer .left nav{
+    margin-left: 100px;
+}
+
+footer .left nav a{
+    display: block;
+    font-size: 0.875em;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer .left nav a:hover, footer .left nav a.active{
+    color: #dfa52b;
+}
+
+footer .right form div{
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid white;
+}
+
+footer .right form input[type="text"]{
+    padding: 8px 0;
+    width: 92%;
+    background: none;
+    border: none;
+}
+
+footer .right form input[type="submit"]{
+    width: 20px;
+    height: 20px;
+    background: url("../../img/main/search.png") no-repeat;
+    background-size: cover;
+    border: none;
+    filter: brightness(0) invert(1);
+}
+
+footer .right > div{
+    text-align: center;
+    font-size: 0.875em;
+    color: white;
+    margin: 33px 0 15px;
+}
+
+footer .right .box{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 16px 16px 0;
+}
+
+footer .right .instagram{
+    background: url("../../img/main/instagram_white.png") no-repeat;
+    background-size: cover;
+}
+
+footer .right .telegram{
+    background: url("../../img/main/telegram_white.png") no-repeat;
+    background-size: cover;
+}
+
+
+footer .right .facebook{
+    background: url("../../img/main/facebook_white.png") no-repeat;
+    background-size: cover;
+}
+
+footer .right .instagram:hover{
+    border-radius:35%;
+    background-color: #dfa52b;
+    background: url("../../img/main/instagram_border-radius.png") no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+
+footer .right .telegram:hover{
+    border-radius:35%;
+    background-color: #dfa52b;
+    background: url("../../img/main/telegram_border-radius.png") no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+
+footer .right .facebook:hover{
+    border-radius:35%;
+    background-color: #dfa52b;
+    background: url("../../img/main/facebook-app-symbol_border-radius.png") no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+
+footer .copyrights{
+    color: #f3f3f3;
+    font-size: 0.750em;
+    margin-top: 60px;
+    text-align: center;
+}

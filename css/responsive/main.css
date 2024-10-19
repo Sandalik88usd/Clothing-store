@@ -1,0 +1,197 @@
+@media screen and (max-width: 1199px){
+
+    .mainBlock .menu {
+        width: 120px;
+        margin-left: 5px;
+    }
+
+    .boxes{
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 815px;
+    }
+
+    .news h2, .advantages h2, .subscribe h2 {
+        margin: 35px 0 36px;
+    }
+
+    .news .boxes{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 771px;
+    }
+
+    .news .boxes .box{
+        margin-bottom: 20px;
+    }
+
+    .news, .advantages {
+        max-width: 946px;
+        margin: 0 auto;
+    }
+
+    .advantages > div{
+        display: block;
+    }
+
+    .advantages div p {
+        max-width: none;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .subscribe h2{
+        margin-bottom: 15px;
+    }
+
+    /*.advantages div p {
+        max-width: 304px;
+    }
+
+    .advantages div figure {
+        margin: 0 20px;
+    }
+
+    .advantages figure img {
+        height: 60px;
+    }*/
+
+}
+
+@media screen and (max-width: 990px){
+
+    .mainBlock .items {
+        padding: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 640px;
+    }
+
+    .box figure img{
+        height: 230px;
+        width: 230px;
+    }
+
+    .mainBlock .items .pagination {
+        margin: 0 auto;
+    }
+
+    .boxes{
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 700px;
+    }
+
+    .news h2, .advantages h2, .subscribe h2 {
+        margin: 35px 0 36px;
+    }
+
+    .news .boxes{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 670px;
+    }
+
+    .advantages div figure {
+        margin: 0 auto 0;
+    }
+
+    .news, .advantages {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .mainBlock {
+        display: block;
+        text-align: center;
+    }
+
+    .mainBlock .menu{
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .mainBlock .items .sort {
+        margin: 0 auto;
+    }
+
+    .mainBlock .items {
+        width: 550px;
+    }
+
+    .news, .advantages {
+        max-width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 577px){
+
+    .mainBlock .items {
+        width: 410px;
+        margin: 0 auto;
+    }
+
+    .boxes .box figure p{
+        text-align: center;
+    }
+
+    .news, .advantages {
+        max-width: 385px;
+    }
+
+    .advantages > div div{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .advantages figure figcaption {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .advantages > div .items {
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 290px;
+    }
+
+    .news h2, .advantages h2, .subscribe h2 {
+        margin: 35px 0 12px;
+    }
+
+    .subscribe div input {
+        margin-top: 20px;
+    }
+
+    .mainBlock .items .sort p a {
+        width: 84px;
+    }
+
+}
+
+@media screen and (max-width: 414px){
+    .mainBlock .items {
+        width: 310px;
+        margin: 0 auto;
+    }
+
+    .news, .advantages {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .news h2, .advantages h2, .subscribe h2 {
+        font-size: 1.5em;
+    }
+
+    .subscribe .title {
+        font-size: 0.875em;
+    }
+}

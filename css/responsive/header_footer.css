@@ -1,0 +1,162 @@
+@media screen and (max-width: 1199px){
+    header form div{
+        width: 230px;
+    }
+
+    header form div input[type = "text"] {
+        border: none;
+        margin-right: 0;
+    }
+
+    footer .left figure figcaption {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    header .container .menu a {
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    header > .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header   .logo{
+        margin-right: 35px;
+    }
+
+    header > .container form, header > .container .cart{
+        margin-top: 15px;
+    }
+
+    header > .container form{
+        margin-right: 20px;
+    }
+
+    header form div{
+        width: 335px;
+    }
+
+    footer .right form div {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    header > .container {
+        
+    }
+    header .menu{
+        margin: 20px 0;
+    }
+
+    footer .container{
+        flex-wrap: wrap;
+    }
+
+    footer .right{
+        margin: 20px auto 0;
+    }
+
+    footer .copyrights {
+        margin-top: 28px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    header form div {
+        width: 220px;
+    }
+
+    header .logo {
+        margin-right: 150px;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+
+    header .burgerIcon{
+        display: inline-block;
+    }
+
+    header .container .menu a {
+        margin: 10px 8px;
+        display: block;
+    }
+
+    header .container .menu a:hover, header .container .menu a.active {
+        border-bottom: none;
+        padding: 0;
+    }
+
+    header form div input[type = "text"] {
+        margin-right: 10px;
+        width: 120px;
+    }
+
+    header form div {
+        width: 237px;
+    }
+
+}
+
+@media screen and (max-width: 523px){
+
+    header form div {
+        width: 192px;
+    }
+
+    header form div input[type = "text"] {
+        margin-right: 10px;
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    header > .container form, header > .container .cart {
+        margin-top: 18px;
+    }
+
+    footer .left nav {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 367px){
+    footer .left {
+        display: block;
+    }
+
+    footer .left figure figcaption {
+        width: auto;
+    }
+
+    footer .left figure{
+        text-align: center;
+    }
+
+    footer .right form div {
+        width: 310px;
+    }
+
+    footer .left figure {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 40px;
+    }
+
+    footer .left nav {
+        display: contents;
+        text-align: center;
+    }
+}
